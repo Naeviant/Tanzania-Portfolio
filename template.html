@@ -1,0 +1,28 @@
+<html>
+    <head>
+        <title>My Tanzania Portfolio</title>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" />
+        <link rel="icon" href="/img/icon.png" type="image/png" />
+        <link rel="stylesheet" href="/css/style.css" />
+    </head>
+    <body>
+        <nav class="lime darken-4">
+            <div class="nav-wrapper">
+                <a href="/" class="brand-logo center" style="position: relative; top: -19px;"><img class="responsive-img" src="/img/logo.png" style="position: relative; top: 19px; margin-right: 5px;" />My Tanzania Portfolio</a>
+                <ul id="nav-mobile" class="right hide-on-med-and-down">
+                    <li><a href="/fundraising/">Fundraising</a></li>
+                    <li><a href="/gallery/">Gallery</a></li>
+                    <li><a href="/sponsors/">Sponsors</a></li>
+                </ul>
+                </div>
+        </nav>
+        {% block content %}{% endblock %}
+    </body>
+    {% block footer %}{% endblock %}
+    <script src="/js/site.js"></script>
+</html>
