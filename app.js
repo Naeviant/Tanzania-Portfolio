@@ -23,15 +23,23 @@ app.locals = {
 };
 
 app.get("/", function(req, res) {
+    res.render("../template");
+});
+
+app.get("/index/", function(req, res) {
     res.render("index");
 });
 
-app.get("/fundraising/", function(req, res) {
-    res.render("fundraising");
+app.get("/diary/", function(req, res) {
+    res.render("diary");
 });
 
 app.get("/gallery/", function(req, res) {
     res.render("gallery");
+});
+
+app.get("/fundraising/", function(req, res) {
+    res.render("fundraising");
 });
 
 app.get("/sponsors/", function(req, res) {

@@ -1,7 +1,7 @@
 {
   "name": "Tanzania-Portfolio",
   "version": "0.1.0",
-  "description": "A showcase of the my build up to and time in Tanzania.",
+  "description": "A showcase of my build up to and my time in Tanzania.",
   "main": "app.js",
   "dependencies": {
     "body-parser": "^1.13.3",
