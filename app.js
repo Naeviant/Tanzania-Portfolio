@@ -1,5 +1,6 @@
 var express = require("express"),
     config = require("./config"),
+    gallery = require("./gallery.json")
     bodyParser = require("body-parser"),
     app = express(),
     session = require("express-session"),
@@ -36,6 +37,11 @@ app.get("/diary/", function(req, res) {
 
 app.get("/gallery/", function(req, res) {
     res.render("gallery");
+});
+
+app.get("/photos/", function(req, res) {
+    console.log(parseInt(req.query.offset))
+    res.render("./partials/photos.html", { photos: gallery.slice(parseInt(req.query.offset), parseInt(req.query.offset) + 24) });
 });
 
 app.get("/fundraising/", function(req, res) {

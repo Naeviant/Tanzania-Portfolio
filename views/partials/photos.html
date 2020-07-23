@@ -1,0 +1,5 @@
+{% for photo in photos %}
+    <div class="col l3 m6 s12" style="margin-bottom: 20px;">
+        <img class="responsive-img hoverable photo" src="/img/gallery/{{ photo.file }}" data-image="{{ photo.file }}" />
+    </div>
+{% endfor %}
