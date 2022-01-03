@@ -18,7 +18,7 @@ const useStyles = makeStyles({
     marginTop: 24,
   },
   header: {
-    fontSize: 48,
+    fontSize: '48px !important',
     textAlign: 'center',
   },
   subtext: {

@@ -15,7 +15,7 @@ const useStyles = makeStyles({
     justifyContent: 'center',
   },
   header: {
-    fontSize: 48,
+    fontSize: '48px !important',
     textAlign: 'center',
   },
 });
