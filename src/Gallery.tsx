@@ -19,10 +19,10 @@ interface Photo {
 
 const useStyles = makeStyles({
   root: {
-    marginTop: '48px !important',
+    marginTop: 24,
   },
   header: {
-    fontSize: 48,
+    fontSize: '48px !important',
     textAlign: 'center',
   },
   subtext: {
